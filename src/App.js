@@ -4,7 +4,6 @@ import Layout from "./components/Layout/Layout";
 import MainPage from "./containers/MainPage/MainPage";
 import AddContact from "./containers/AddContact/AddContact";
 import EditPost from "./components/EditPost/EditPost";
-import EditContact from "./containers/EditContact/EditContact";
 
 const App = () => (
     <Layout>
