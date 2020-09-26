@@ -1,0 +1,142 @@
+.Input {
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: white;
+    font: inherit;
+    padding: 6px 10px;
+    display: block;
+    width: 80%;
+    box-sizing: border-box;
+    margin: 10px auto;
+    resize: none;
+    height: 50px;
+}
+
+.Input:focus {
+    outline: none;
+}
+
+.InputText {
+    outline: none;
+    font: inherit;
+    padding: 0;
+    display: block;
+    width: 80%;
+    box-sizing: border-box;
+    margin: 10px auto;
+}
+
+.button {
+    background: transparent;
+    border-width: 0;
+    position: relative;
+    cursor: pointer;
+    font-family: 'Dancing Script', cursive;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    transition: .3s;
+    text-decoration: none;
+}
+
+.button span {
+    display: block;
+    position: relative;
+    z-index: 3;
+    background: #300066;
+    color: white;
+    padding: 0 30px;
+    line-height: 40px;
+}
+
+.button:before {
+    content: "";
+    position: absolute;
+    width: calc(100% + 5px);
+    height: calc(100% + 5px);
+    left: -5px;
+    top: -5px;
+    background: #DDA0DD;
+    z-index: 1;
+    transition: .4s ease-out;
+    outline: none;
+    border: none;
+}
+
+.button:after {
+    content: "";
+    position: absolute;
+    width: calc(100% + 5px);
+    height: calc(100% + 5px);
+    right: -5px;
+    bottom: -5px;
+    background: #41ebdf;
+    transition: .4s ease-out .1s;
+    outline: none;
+    border: none;
+}
+
+.button:hover:before {
+    transform: translate(5px, 5px);
+}
+
+.button:hover:after {
+    transform: translate(-5px, -5px);
+}
+
+.button:active {
+    border: none;
+    outline: none;
+}
+
+.button:focus {
+    border: none;
+    outline: none;
+}
+
+.imageForm {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.Image {
+    outline: none;
+    font: inherit;
+    padding: 0;
+    display: block;
+    width: 80%;
+    box-sizing: border-box;
+    margin: 10px auto;
+}
+
+.buttonForm {
+    outline: none;
+    font: inherit;
+    padding: 0;
+    display: block;
+    width: 80%;
+    box-sizing: border-box;
+    margin: 15px auto 10px;
+}
+
+.buttonForm button{
+    margin: 10px auto;
+    display: block;
+}
+
+.AddForm {
+    border: 5px solid;
+    width: 40%;
+    margin: 0 auto 15px;
+    border-image: conic-gradient(red, yellow, lime, aqua, blue, magenta, red) 1;
+}
+
+.AddFormTitle {
+    border: 5px solid;
+    width: 40%;
+    margin: 0 auto 15px;
+    border-image: conic-gradient(red, yellow, lime, aqua, blue, magenta, red) 1;
+}

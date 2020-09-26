@@ -1,0 +1,9 @@
+.edit-post {
+    width: 1100px;
+    position: relative;
+    margin: 20px auto 20px;
+    padding: 10px 15px;
+    background: linear-gradient(to bottom, rgba(252,236,252,0.3) 0%,rgba(255,228,225,0.5) 100%);
+    border: 2px solid mistyrose;
+    border-radius: 10px;
+}
